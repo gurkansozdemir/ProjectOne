@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBS.Core", "OBS.Core\OBS.Core.csproj", "{BC4CF6DB-EE70-4CA0-8565-4EC43B9FBEB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBS.Repository", "OBS.Repository\OBS.Repository.csproj", "{E6E2C308-2BCA-4269-A01A-D33B6584D3D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC4CF6DB-EE70-4CA0-8565-4EC43B9FBEB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4CF6DB-EE70-4CA0-8565-4EC43B9FBEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4CF6DB-EE70-4CA0-8565-4EC43B9FBEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4CF6DB-EE70-4CA0-8565-4EC43B9FBEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E2C308-2BCA-4269-A01A-D33B6584D3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E2C308-2BCA-4269-A01A-D33B6584D3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E2C308-2BCA-4269-A01A-D33B6584D3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E2C308-2BCA-4269-A01A-D33B6584D3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D8491FD-0FAC-441E-A929-1A3E8C4E1DCF}
+	EndGlobalSection
+EndGlobal
