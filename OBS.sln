@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBS.Core", "OBS.Core\OBS.Core.csproj", "{BC4CF6DB-EE70-4CA0-8565-4EC43B9FBEB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OBS.Core", "OBS.Core\OBS.Core.csproj", "{BC4CF6DB-EE70-4CA0-8565-4EC43B9FBEB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBS.Repository", "OBS.Repository\OBS.Repository.csproj", "{E6E2C308-2BCA-4269-A01A-D33B6584D3D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OBS.Repository", "OBS.Repository\OBS.Repository.csproj", "{E6E2C308-2BCA-4269-A01A-D33B6584D3D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBS.Service", "OBS.Service\OBS.Service.csproj", "{27E82FC9-861A-4D5F-881C-AA57F0A3F8B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBS.API", "OBS.API\OBS.API.csproj", "{76C1F487-22CB-4D36-BBA2-18274CE9B577}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{E6E2C308-2BCA-4269-A01A-D33B6584D3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6E2C308-2BCA-4269-A01A-D33B6584D3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6E2C308-2BCA-4269-A01A-D33B6584D3D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E82FC9-861A-4D5F-881C-AA57F0A3F8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E82FC9-861A-4D5F-881C-AA57F0A3F8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E82FC9-861A-4D5F-881C-AA57F0A3F8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E82FC9-861A-4D5F-881C-AA57F0A3F8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76C1F487-22CB-4D36-BBA2-18274CE9B577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76C1F487-22CB-4D36-BBA2-18274CE9B577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76C1F487-22CB-4D36-BBA2-18274CE9B577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76C1F487-22CB-4D36-BBA2-18274CE9B577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
